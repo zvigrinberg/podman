@@ -106,7 +106,7 @@ sudo yum -y install buildah
 
 Raspberry Pi OS use the standard Debian's repositories,
 so it is fully compatible with Debian's arm64 repository.
-You can simply follow the [steps for Debian](#debian) to install podman.
+You can simply follow the [steps for Debian](#debian) to install buildah.
 
 
 ### [RHEL8 Beta](https://www.redhat.com/en/blog/powering-its-future-while-preserving-present-introducing-red-hat-enterprise-linux-8-beta?intcmp=701f2000001Cz6OAAS)
@@ -357,7 +357,7 @@ majority of these files are commonly contained in the `containers-common` packag
 
 ### [registries.conf](https://github.com/containers/buildah/blob/master/docs/samples/registries.conf)
 
-#### Man Page: [registries.conf.5](https://github.com/containers/image/blob/master/docs/containers-registries.conf.5.md)
+#### Man Page: [registries.conf.5](https://github.com/containers/image/blob/main/docs/containers-registries.conf.5.md)
 
 `/etc/containers/registries.conf`
 
@@ -426,7 +426,7 @@ The link above takes you to the seccomp.json
 
 `/etc/containers/policy.json`
 
-#### Man Page: [policy.json.5](https://github.com/containers/image/blob/master/docs/policy.json.md)
+#### Man Page: [policy.json.5](https://github.com/containers/image/blob/main/docs/policy.json.md)
 
 
 #### Example from the Fedora `containers-common` package:
